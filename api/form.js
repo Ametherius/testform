@@ -15,7 +15,7 @@ export default function handler(req, res) {
         })
         
         const mailOptions = {
-            from: `"Kraken The Kode" <${process.env.EMAIL_USER}>`,
+            from: `"Gizmos Steam Services" <${process.env.EMAIL_USER}>`,
             to: process.env.EMAIL_USER,
             subject: 'Test Form Submission',
             text: message
